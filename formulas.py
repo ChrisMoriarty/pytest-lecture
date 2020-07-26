@@ -38,9 +38,8 @@ def fibonacci(n):
 #     """
 #     a = 0
 #     b = 1
-#     if n < 0:
-#         raise ValueError("Index must be a positive integer")
-#     elif n == 0:
+#
+#     if n == 0:
 #         return a
 #     elif n == 1:
 #         return b
