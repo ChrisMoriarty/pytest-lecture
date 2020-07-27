@@ -13,5 +13,7 @@ test_data = [(0, 0),
 def test_fibonacci(test_input, expected):
     assert formulas.fibonacci(test_input) == expected
 
+
+def test_fibonacci_negative():
     with pytest.raises(ValueError):
         formulas.fibonacci(-1)
